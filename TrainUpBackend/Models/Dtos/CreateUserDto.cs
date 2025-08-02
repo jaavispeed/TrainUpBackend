@@ -8,14 +8,11 @@ namespace TrainUpBackend.Models.Dtos
         [Required(ErrorMessage = "El campo username es requerido")]
         public string Username { get; set; } = string.Empty;
         [Required(ErrorMessage = "El campo email es requerido")]
-        public string? Email { get; set; } 
+        public string Email { get; set; } = string.Empty;
         [Required(ErrorMessage = "El campo password es requerido")]
         public string? Password { get; set; } 
         [Required(ErrorMessage = "El campo role es requerido")]
         public string? Role { get; set; }
-        public DateTime CreatedAt { get; set; }
-        public DateTime UpdatedAt { get; set; }
-
     }
 
 }

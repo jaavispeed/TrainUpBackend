@@ -31,7 +31,7 @@ namespace TrainUpBackend.Repository.IRepository
 
         public bool IsUniqueUser(string username, string email)
         {
-            return !_db.Users.Any(u => u.Username.ToLower().Trim() == username.ToLower().Trim());
+            return !_db.Users.Any(u => u.Username.ToLower().Trim() == username.ToLower().Trim() || u.Email.ToLower().Trim() == email.ToLower().Trim());
         }
 
         public async Task<UserLoginResponseDto> Login(UserLoginDto userLoginDto)
