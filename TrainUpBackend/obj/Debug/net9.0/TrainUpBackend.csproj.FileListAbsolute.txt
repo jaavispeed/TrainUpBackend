@@ -166,3 +166,6 @@ C:\Users\jviie\OneDrive\Escritorio\TrainUpBackend\TrainUpBackend\obj\Debug\net9.
 C:\Users\jviie\OneDrive\Escritorio\TrainUpBackend\TrainUpBackend\obj\Debug\net9.0\TrainUpBackend.pdb
 C:\Users\jviie\OneDrive\Escritorio\TrainUpBackend\TrainUpBackend\obj\Debug\net9.0\TrainUpBackend.genruntimeconfig.cache
 C:\Users\jviie\OneDrive\Escritorio\TrainUpBackend\TrainUpBackend\obj\Debug\net9.0\ref\TrainUpBackend.dll
+C:\Users\jviie\OneDrive\Escritorio\TrainUpBackend\TrainUpBackend\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\jviie\OneDrive\Escritorio\TrainUpBackend\TrainUpBackend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\jviie\OneDrive\Escritorio\TrainUpBackend\TrainUpBackend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
