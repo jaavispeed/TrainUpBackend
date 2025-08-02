@@ -6,7 +6,7 @@ namespace TrainUpBackend.Models.Dtos
     {
         public string? Name { get; set; } 
         [Required(ErrorMessage = "El campo username es requerido")]
-        public string? Username { get; set; } 
+        public string Username { get; set; } = string.Empty;
         [Required(ErrorMessage = "El campo email es requerido")]
         public string? Email { get; set; } 
         [Required(ErrorMessage = "El campo password es requerido")]
