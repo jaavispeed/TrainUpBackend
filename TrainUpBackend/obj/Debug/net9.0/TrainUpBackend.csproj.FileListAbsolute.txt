@@ -6,8 +6,11 @@ C:\Users\jviie\OneDrive\Escritorio\TrainUpBackend\TrainUpBackend\bin\Debug\net9.
 C:\Users\jviie\OneDrive\Escritorio\TrainUpBackend\TrainUpBackend\bin\Debug\net9.0\TrainUpBackend.runtimeconfig.json
 C:\Users\jviie\OneDrive\Escritorio\TrainUpBackend\TrainUpBackend\bin\Debug\net9.0\TrainUpBackend.dll
 C:\Users\jviie\OneDrive\Escritorio\TrainUpBackend\TrainUpBackend\bin\Debug\net9.0\TrainUpBackend.pdb
+C:\Users\jviie\OneDrive\Escritorio\TrainUpBackend\TrainUpBackend\bin\Debug\net9.0\AutoMapper.dll
+C:\Users\jviie\OneDrive\Escritorio\TrainUpBackend\TrainUpBackend\bin\Debug\net9.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\jviie\OneDrive\Escritorio\TrainUpBackend\TrainUpBackend\bin\Debug\net9.0\Azure.Core.dll
 C:\Users\jviie\OneDrive\Escritorio\TrainUpBackend\TrainUpBackend\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\jviie\OneDrive\Escritorio\TrainUpBackend\TrainUpBackend\bin\Debug\net9.0\BCrypt.Net-Next.dll
 C:\Users\jviie\OneDrive\Escritorio\TrainUpBackend\TrainUpBackend\bin\Debug\net9.0\Humanizer.dll
 C:\Users\jviie\OneDrive\Escritorio\TrainUpBackend\TrainUpBackend\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\jviie\OneDrive\Escritorio\TrainUpBackend\TrainUpBackend\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
