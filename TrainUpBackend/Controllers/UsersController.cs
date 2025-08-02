@@ -28,5 +28,20 @@ namespace TrainUpBackend.Controllers
             return Ok(usersDto);
         }
 
+        [HttpGet("{id:int}", Name = "GetUser")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public IActionResult GetUser(int id)
+        {
+            var user = _userRepository.GetUserById(id);
+            if (user == null)
+            {
+                return NotFound($"Usuario con id {id} no existe.");
+            }
+
+            var userDto = _mapper.Map<UserDto>(user);
+            return Ok(userDto);
+        }
+
     } 
 }
