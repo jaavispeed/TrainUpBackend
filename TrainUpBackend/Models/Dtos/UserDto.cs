@@ -1,22 +1,15 @@
-using System.ComponentModel.DataAnnotations;
 
-namespace TrainUpBackend.Models
+namespace TrainUpBackend.Models.Dtos
 {
-    public class User
+    public class UserDto
     {
-        [Key]
         public int Id { get; set; }
-        [Required]
         public string? Name { get; set; } 
-        [Required]
-        public string Username { get; set; } = string.Empty;
-        [Required]
+        public string? Username { get; set; } 
         public string? Email { get; set; } 
-        [Required]
         public string? Password { get; set; } 
         public string? Role { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
-
     }
 }
