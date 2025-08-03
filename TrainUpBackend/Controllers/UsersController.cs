@@ -43,7 +43,7 @@ namespace TrainUpBackend.Controllers
             return Ok(userDto);
         }
 
-        [HttpPost(Name = "RegisterUser")]
+        [HttpPost("Register", Name = "RegisterUser")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
@@ -68,6 +68,26 @@ namespace TrainUpBackend.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, "Error al registrar el usuario.");
             }
             return CreatedAtRoute("GetUser", new { id = result.Id }, _mapper.Map<UserDto>(result));
+        }
+
+
+        [HttpPost("Login", Name = "LoginUser")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status403Forbidden)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<IActionResult> LoginUser([FromBody] UserLoginDto userLoginDto)
+        {
+            if (userLoginDto == null || !ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            var user = await _userRepository.Login(userLoginDto);
+            if (user == null)
+            {
+                return Unauthorized();
+            }
+            return Ok(user);
         }
 
 

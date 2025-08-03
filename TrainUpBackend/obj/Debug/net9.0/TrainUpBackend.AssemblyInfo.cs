@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrainUpBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d67f4c2da5815a2423ef6060c25f8b88b3fc0364")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b5f9d711c839f046ba3ce9dfd2e9fd7c1dd4363c")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrainUpBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrainUpBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
